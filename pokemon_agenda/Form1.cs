@@ -12,6 +12,14 @@ namespace pokemon_agenda
 {
     public partial class FmCadastroPokemon : Form
     {
+        /* objetivo da aula: aprender a criar e utilizar objetos
+        * mini game pokemon
+        * 1 - montar meu time pokemon (6 pokemon)
+        * 2 - treinar esse meu time pokemon (a cada treinamento ele recebe 2 nivel)
+        * 3 - batalhar com esse pokemon de forma randonica
+        *sistema vai sortear 1 a 6 pokemon (somente os 151 primeiros)
+        */
+
         public FmCadastroPokemon()
         {
             InitializeComponent();
@@ -31,13 +39,18 @@ namespace pokemon_agenda
         }
         private void btnSalvar_Click(object sender, EventArgs e)
         {
+
+
             string nomePokemon = txtNome. Text; //textBox
             string tipoPokemon = cbTipo.Text; //ComboBox
             int nivelPokemon = (int)numNivel.Value; //numericUpDown
 
+            Pokemon poke = new Pokemon(nomePokemon, tipoPokemon, nivelPokemon);
 
-            MessageBox.Show($"O {nomePokemon} do tipo {tipoPokemon} " +
-                $"foi cadastrado com o nível {nivelPokemon}");
+            poke.fnDescricao();
+
+            //MessageBox.Show($"O {nomePokemon} do tipo {tipoPokemon} " +
+            // $"foi cadastrado com o nível {nivelPokemon}");
             fnLimpar();
         }
 
@@ -48,6 +61,47 @@ namespace pokemon_agenda
         private void FmCadastroPokemon_Load(object sender, EventArgs e)
         {
 
+        }
+
+private void btnAjuda_Click(object sender, EventArgs e)
+        {
+            // erica
+            // luiz
+            // fabio
+            // leandro
+            // natanael
+
+
+            //variaveis primitivas
+            //string aluno1 = "erica";
+            //string aluno2 = "luiz";
+            //string aluno3 = "fabio";
+            //string aluno4 = "leandro";
+            //string aluno5 = "natanael";
+
+            //arrays
+
+            string[] nomesAlunos = new string[5];
+
+            //nomesAlunos[0] = ['erica'];
+            //nomesAlunos[0] = ["luiz"];
+            //nomesAlunos[0] = ["ana"];
+            //nomesAlunos[0] = ["kaio"];
+            //nomesAlunos[0] = ["iori"];
+
+
+            // List  <tipo da variavel>
+            List<string> listaNomes = new List<string>();
+
+            listaNomes.Add("Erica");
+            listaNomes.Add("Ana");
+            listaNomes.Add("Kaio");
+            listaNomes.Add("Iori");
+            listaNomes.Add("Laysla");
+
+
+            MessageBox.Show($"Valor da lista: {listaNomes[4]}");
+            MessageBox.Show($"Valor da lista: {listaNomes.Count}");
         }
     }
 }
