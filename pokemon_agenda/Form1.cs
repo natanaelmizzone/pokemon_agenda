@@ -81,7 +81,7 @@ private void btnAjuda_Click(object sender, EventArgs e)
 
             //arrays
 
-            string[] nomesAlunos = new string[5];
+            string[] nomesAlunos = new string[6];
 
             //nomesAlunos[0] = ['erica'];
             //nomesAlunos[0] = ["luiz"];
@@ -98,10 +98,15 @@ private void btnAjuda_Click(object sender, EventArgs e)
             listaNomes.Add("Kaio");
             listaNomes.Add("Iori");
             listaNomes.Add("Laysla");
+            listaNomes.Add("Jorge");
 
-
-            MessageBox.Show($"Valor da lista: {listaNomes[4]}");
+            MessageBox.Show($"Valor da lista: {listaNomes[5]}");
             MessageBox.Show($"Valor da lista: {listaNomes.Count}");
+        }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
