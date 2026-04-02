@@ -7,14 +7,14 @@ using System.Windows.Forms;
 
 namespace pokemon_agenda
 {
-    internal class Pokemon
+    public class Pokemon
     {
 
-        string Nome;
-        string Tipo;
-        int Nivel;
-        int Vida;
-        int Dano;
+        public string Nome { get; set; }
+        public string Tipo { get; set; }
+        public int Nivel { get; set; }
+        public int Vida { get; set; }
+        public int Dano { get; set; }
 
         //Criação da função de inicialização padrão do meu objeto
 
@@ -36,30 +36,7 @@ namespace pokemon_agenda
         /// <param name="tipoPokemon">Menciona a habilidade do <c>Pokemon</c></param>
         /// <param name="nivelPokemon">Relaciona qual o nível da habilidade do <c>Pokemon</c></param>
 
-
-
-
-
-
-
-
-
-
-        /// <summary>
-        /// Inicializa o construtor da minha classe padrão de Pokemon
-        /// <list type="bullet">
-        /// <paramref name="nivelPokemon"/>, <paramref name="nomePokemon"/>, <paramref name="tipoPokemon"/>
-        /// <item>nomePokemon: Variavel para o Nome</item>
-        /// <item>tipoPokemon: Variavel para o Tipo</item>
-        /// <item>nivelPokemon: Variavel para o Nível</item>
-        /// </list>
-        /// <value>Aqui aparece a propriedade de valor</value>
-        /// </summary>
-        /// <param name="nomePokemon">Faz referência ao nome <c>Pokemoon</c></param>
-        /// <param name="tipoPokemon">Menciona a habilidade do <c>Pokemon</c></param>
-        /// <param name="nivelPokemon">Relaciona qual o nível da habilidade do <c>Pokemon</c></param>
-
-
+    
         public Pokemon(string nomePokemon, string tipoPokemon, int nivelPokemon)
         {
 
@@ -74,8 +51,9 @@ namespace pokemon_agenda
             Nome = nomePokemon  ;
             Tipo = tipoPokemon;
             Nivel = nivelPokemon;
-            Vida = 100;
-            Dano = 20;
+
+            Vida = nivelPokemon * 70;
+            Dano = nivelPokemon * 15;
         }
 
         // public posso usar da função em qualquer espaço do meu projeto

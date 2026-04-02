@@ -19,11 +19,28 @@ namespace pokemon_agenda
         * 3 - batalhar com esse pokemon de forma randonica
         *sistema vai sortear 1 a 6 pokemon (somente os 151 primeiros)
         */
-
+        BindingList<Pokemon> listaPokemon = new BindingList<Pokemon>();
         public FmCadastroPokemon()
         {
             InitializeComponent();
+
+            // DataGridView Visualizador organizado de dados
+
+            Pokemon p1 = new Pokemon("Pikachu", "Elétrico", 5);
+            Pokemon p2 = new Pokemon("Charmander", "Fogo", 9);
+            Pokemon p3 = new Pokemon("Bulbasaur", "Grama", 15);
+            Pokemon p4 = new Pokemon("Squirtle", "Água", 29);
+
+            listaPokemon.Add(p1);
+            listaPokemon.Add(p2);
+            listaPokemon.Add(p3);
+            listaPokemon.Add(p4);
+
+            dgvListaPokemon.DataSource = listaPokemon;
+
         }
+
+
         //disponibilidade retorno nome (funções) a função serve para reaproveitar código, definido uma função ou posso reutilizar o código.
         private void fnLimpar()
         {
@@ -46,6 +63,8 @@ namespace pokemon_agenda
             int nivelPokemon = (int)numNivel.Value; //numericUpDown
 
             Pokemon poke = new Pokemon(nomePokemon, tipoPokemon, nivelPokemon);
+
+            listaPokemon.Add(poke);
 
             poke.fnDescricao();
 
@@ -108,5 +127,6 @@ private void btnAjuda_Click(object sender, EventArgs e)
         {
 
         }
+
     }
 }

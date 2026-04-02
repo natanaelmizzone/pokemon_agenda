@@ -41,9 +41,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAjuda = new System.Windows.Forms.Button();
+            this.dgvListaPokemon = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNivel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListaPokemon)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -181,7 +183,7 @@
             // 
             // btnAjuda
             // 
-            this.btnAjuda.Location = new System.Drawing.Point(13, 510);
+            this.btnAjuda.Location = new System.Drawing.Point(27, 495);
             this.btnAjuda.Name = "btnAjuda";
             this.btnAjuda.Size = new System.Drawing.Size(75, 23);
             this.btnAjuda.TabIndex = 5;
@@ -189,11 +191,20 @@
             this.btnAjuda.UseVisualStyleBackColor = true;
             this.btnAjuda.Click += new System.EventHandler(this.btnAjuda_Click);
             // 
+            // dgvListaPokemon
+            // 
+            this.dgvListaPokemon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListaPokemon.Location = new System.Drawing.Point(340, 114);
+            this.dgvListaPokemon.Name = "dgvListaPokemon";
+            this.dgvListaPokemon.Size = new System.Drawing.Size(444, 243);
+            this.dgvListaPokemon.TabIndex = 6;
+            // 
             // FmCadastroPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(911, 545);
+            this.ClientSize = new System.Drawing.Size(806, 545);
+            this.Controls.Add(this.dgvListaPokemon);
             this.Controls.Add(this.btnAjuda);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
@@ -209,6 +220,7 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNivel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListaPokemon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,6 +240,7 @@
         private System.Windows.Forms.NumericUpDown numNivel;
         private System.Windows.Forms.ComboBox cbTipo;
         private System.Windows.Forms.Button btnAjuda;
+        private System.Windows.Forms.DataGridView dgvListaPokemon;
     }
 }
 
