@@ -8,3 +8,4 @@ C:\Users\natanael.smizzone\source\repos\pokemon_agenda\pokemon_agenda\obj\Debug\
 C:\Users\natanael.smizzone\source\repos\pokemon_agenda\pokemon_agenda\obj\Debug\pokemon_agenda.csproj.CoreCompileInputs.cache
 C:\Users\natanael.smizzone\source\repos\pokemon_agenda\pokemon_agenda\obj\Debug\pokemon_agenda.exe
 C:\Users\natanael.smizzone\source\repos\pokemon_agenda\pokemon_agenda\obj\Debug\pokemon_agenda.pdb
+C:\Users\natanael.smizzone\source\repos\pokemon_agenda\pokemon_agenda\obj\Debug\pokemon_agenda.FormDetalhesPokemon.resources

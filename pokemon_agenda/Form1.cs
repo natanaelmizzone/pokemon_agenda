@@ -128,5 +128,19 @@ private void btnAjuda_Click(object sender, EventArgs e)
 
         }
 
+        private void btnVisualizar_Click(object sender, EventArgs e)
+        {
+            //pegar a linha selecionada!
+
+            //              (ConverterParaoTipo)pegar linha selecionada do DGV
+            Pokemon PokemonSelecionado = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem;
+            //char = "a"
+            //string = "texto diverso"
+            //int = 57
+            //double = 32.65
+            //var
+
+            PokemonSelecionado.fnDescricao();
+        }
     }
 }
