@@ -43,6 +43,7 @@
             this.btnAjuda = new System.Windows.Forms.Button();
             this.dgvListaPokemon = new System.Windows.Forms.DataGridView();
             this.btnVisualizar = new System.Windows.Forms.Button();
+            this.btnTreinar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNivel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -175,7 +176,7 @@
             // 
             this.pictureBox1.Image = global::pokemon_agenda.Properties.Resources.pokeball;
             this.pictureBox1.Location = new System.Drawing.Point(19, 19);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(71, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -211,11 +212,23 @@
             this.btnVisualizar.UseVisualStyleBackColor = true;
             this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
+            // btnTreinar
+            // 
+            this.btnTreinar.Font = new System.Drawing.Font("SansSerif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnTreinar.Location = new System.Drawing.Point(571, 363);
+            this.btnTreinar.Name = "btnTreinar";
+            this.btnTreinar.Size = new System.Drawing.Size(225, 32);
+            this.btnTreinar.TabIndex = 8;
+            this.btnTreinar.Text = "Treinar";
+            this.btnTreinar.UseVisualStyleBackColor = true;
+            this.btnTreinar.Click += new System.EventHandler(this.btnTreinar_Click);
+            // 
             // FmCadastroPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1152, 545);
+            this.Controls.Add(this.btnTreinar);
             this.Controls.Add(this.btnVisualizar);
             this.Controls.Add(this.dgvListaPokemon);
             this.Controls.Add(this.btnAjuda);
@@ -225,7 +238,7 @@
             this.Font = new System.Drawing.Font("SansSerif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FmCadastroPokemon";
             this.Text = "Pokémon - Agenda";
             this.Load += new System.EventHandler(this.FmCadastroPokemon_Load);
@@ -255,6 +268,7 @@
         private System.Windows.Forms.Button btnAjuda;
         private System.Windows.Forms.DataGridView dgvListaPokemon;
         private System.Windows.Forms.Button btnVisualizar;
+        private System.Windows.Forms.Button btnTreinar;
     }
 }
 

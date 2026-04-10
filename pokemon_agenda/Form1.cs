@@ -131,16 +131,42 @@ private void btnAjuda_Click(object sender, EventArgs e)
         private void btnVisualizar_Click(object sender, EventArgs e)
         {
             //pegar a linha selecionada!
+            if (dgvListaPokemon.CurrentRow != null)
+            {
+                // (ConverterParaoTipo)pegar linha selecionada do DGV
+                Pokemon PokemonSelecionado = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem;
+                //char = "a"
+                //string = "texto diverso"
+                //int = 57
+                //double = 32.65
+                //var
 
-            //              (ConverterParaoTipo)pegar linha selecionada do DGV
-            Pokemon PokemonSelecionado = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem;
-            //char = "a"
-            //string = "texto diverso"
-            //int = 57
-            //double = 32.65
-            //var
+                //PokemonSelecionado.fnDescricao();
 
-            PokemonSelecionado.fnDescricao();
+                FormDetalhesPokemon formD = new FormDetalhesPokemon();
+                formD.pokemonRecebido = PokemonSelecionado;
+
+                // ShowDialog() 'forço' usuario a focar na nova tela 
+                // Show()
+                formD.ShowDialog();
+            } else
+            {
+                MessageBox.Show("Selecione um Pokemon.");
+            }
+        }
+
+        private void btnTreinar_Click(object sender, EventArgs e)
+        {
+            if (dgvListaPokemon.CurrentRow != null)
+            {
+                Pokemon pokemonParaTreinar = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem;
+
+                pokemonParaTreinar.fnTreinar();
+
+                dgvListaPokemon.Refresh();
+
+                MessageBox.Show($"o Pokemon {pokemonParaTreinar.Nome} subiu 1 nivel", "Alerta de treinamento");
+            }
         }
     }
 }

@@ -36,11 +36,11 @@ namespace pokemon_agenda
         /// <param name="tipoPokemon">Menciona a habilidade do <c>Pokemon</c></param>
         /// <param name="nivelPokemon">Relaciona qual o nível da habilidade do <c>Pokemon</c></param>
 
-    
+
         public Pokemon(string nomePokemon, string tipoPokemon, int nivelPokemon)
         {
 
-              Random r = new Random();
+            Random r = new Random();
             r.Next();
 
 
@@ -48,7 +48,7 @@ namespace pokemon_agenda
             //Tipo = "Elétrico";
             //Nivel = 5;
 
-            Nome = nomePokemon  ;
+            Nome = nomePokemon;
             Tipo = tipoPokemon;
             Nivel = nivelPokemon;
 
@@ -72,5 +72,21 @@ namespace pokemon_agenda
         // vida do pokemon
         // dano do pokemon
 
+
+        public string fnLinkImg()
+        {
+            string nomeTratado = Nome.Replace(" ", "-").Replace(".", "").ToLower();
+
+            return $"https://img.pokemondb.net/artwork/{nomeTratado}.jpg";
+
+        }
+        public void fnTreinar()
+
+        {
+            Nivel++;
+
+            Vida = Nivel * 70;
+            Dano = Nivel * 15;
+        }
     }
 }
