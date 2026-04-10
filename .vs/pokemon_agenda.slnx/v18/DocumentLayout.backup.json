@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\formdetalhespokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|c:\\users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\formdetalhespokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\formdetalhespokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\formdetalhespokemon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\formdetalhespokemon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|c:\\users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7821F5D2-0452-45F9-BA39-BAE3C254CC1B}|pokemon_agenda\\pokemon_agenda.csproj|solutionrelative:pokemon_agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,19 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\Form1.cs",
               "RelativeDocumentMoniker": "pokemon_agenda\\Form1.cs",
               "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\Form1.cs",
               "RelativeToolTip": "pokemon_agenda\\Form1.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAAAKUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T00:40:44.418Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\pokemon.cs",
+              "RelativeDocumentMoniker": "pokemon_agenda\\pokemon.cs",
+              "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\pokemon.cs",
+              "RelativeToolTip": "pokemon_agenda\\pokemon.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwCcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T00:13:06.486Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -62,7 +72,7 @@
               "RelativeDocumentMoniker": "pokemon_agenda\\FormDetalhesPokemon.cs",
               "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\FormDetalhesPokemon.cs",
               "RelativeToolTip": "pokemon_agenda\\FormDetalhesPokemon.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T00:59:43.947Z",
               "EditorCaption": ""
@@ -82,19 +92,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormDetalhesPokemon.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\FormDetalhesPokemon.Designer.cs",
-              "RelativeDocumentMoniker": "pokemon_agenda\\FormDetalhesPokemon.Designer.cs",
-              "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\FormDetalhesPokemon.Designer.cs",
-              "RelativeToolTip": "pokemon_agenda\\FormDetalhesPokemon.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T23:30:34.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\Form1.cs",
               "RelativeDocumentMoniker": "pokemon_agenda\\Form1.cs",
@@ -103,19 +100,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T00:17:23.776Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "pokemon.cs",
-              "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\pokemon.cs",
-              "RelativeDocumentMoniker": "pokemon_agenda\\pokemon.cs",
-              "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\pokemon_agenda\\pokemon_agenda\\pokemon.cs",
-              "RelativeToolTip": "pokemon_agenda\\pokemon.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwFgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T00:13:06.486Z",
-              "EditorCaption": ""
             }
           ]
         }
